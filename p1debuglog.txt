@@ -1,1 +1,30 @@
 
+Breakpoint 1, main () at p1final.c:3
+3   {
+(gdb) s
+8     printf("Enter the numerator for 1st number:");
+(gdb) n
+9     scanf("%d",&numerator1);
+(gdb) n
+Enter the numerator for 1st number:n
+10    printf("Enter the denominator for 1st number:");
+(gdb) n
+11    scanf("%d",&denominator1);
+(gdb) n
+12    printf("Enter the numerator for 2nd number:");
+(gdb) n
+13    scanf("%d",&numerator2);
+(gdb) n
+14    printf("Enter the denominator for 2nd number:");
+(gdb) n
+15    scanf("%d",&denominator2);
+(gdb) n
+18    x=(numerator1*denominator2)+(denominator1*numerator2);
+(gdb) n
+21    y=denominator1*denominator2;
+(gdb) n
+24    for(c=1; c<= x && c<=y; ++c)
+(gdb) n
+31    printf("%d / %d)+(%d / %d)=(%d / %d)", numerator1,denominator1,numerator2,denominator2, x/gcd_no, y/gcd_no);
+(gdb) 
+33    return 0;
