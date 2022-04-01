@@ -1,21 +1,14 @@
 #include<stdio.h>
-struct _fraction
-{
-  int num,den;
-};
-typedef struct _fraction Fraction;
-  int gcd(int a,int b)
-  {
-    int t;
-    while (b != 0)
-      {
-        t = b;
-        b = a%b;
-        a = t;
-      }
-    return a;
-}
 int main()
 {
-  printf("%d\n",gcd(16,24));
-}
+  int a,b,c,d,x,y,i,gcd;
+  printf("\nEnter the numberator for 1st number;");
+  scanf("%d",&a);
+  printf("\nEnetr the denominator for 1st number:");
+  scanf("%d",&b);
+  printf("\nEnter the numerator for 2nd number:");
+  scanf("%d",&c);
+  printf("\nEnetr the denominator for 2nd number:");
+  scanf("%d",&d);
+  x=(a*)
+  }
